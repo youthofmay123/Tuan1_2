@@ -1,0 +1,17 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 1;
+}
+body{
+    background-color: antiquewhite;
+}
+div{
+    width: 600px;
+    height: auto;
+    background-color: aqua;
+    padding: 5px 10px ;
+}
+legend{
+    margin-left: 15px;
+}

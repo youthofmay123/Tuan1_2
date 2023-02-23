@@ -1,0 +1,11 @@
+*{
+    margin: 0 auto;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+div{
+    background-color: lightskyblue;
+    width: 700px;
+    padding: 1px 0px 10px 15px;
+}
