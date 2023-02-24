@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Bai 17</title>
+        <link rel="stylesheet" href="Bai17.css">
+    </head>
+
+    <body>
+        <div class="div1">
+            <form action="#">
+                <h2>Survey Form</h2>
+                <p>
+                    If yout are interested in purchasing one or more of our products, before odering please complete some or all of the following survey for our marketing department. Answeriing any question is optinal, and all information will be kept strictly confidential. Thank you very much for your time!
+                </p>
+                <ol>
+                    <li>
+                        What is your name? <br>
+                        <input type="text" name="txtName" id="01" size="30" maxlength="20">
+                    </li>
+                    <li>
+                       <label for="infor"> What is your date of birth?</label>
+                        <table>
+                            <tr>
+                                <td>
+                                    <label for="Bdate">Month: </label>
+                                </td>
+                                <td>
+                                    <input list="Bdate" name="infor">
+                                    <datalist id="Bdate">
+                                        <option value="January"></option>
+                                        <option value="February"></option>
+                                        <option value="March"></option>
+                                        <option value="April"></option>
+                                        <option value="May"></option>
+                                        <option value="June"></option>
+                                        <option value="July"></option>
+                                        <option value="August"></option>
+                                        <option value="September"></option>
+                                        <option value="Octorber"></option>
+                                        <option value="November"></option>
+                                        <option value="Decenber"></option>
+                                    </datalist>
+                                </td>
+
+                                <td>
+                                    <label for="03">Date: </label>
+                                </td>
+                                <td>
+                                    <input type="number" name="infor" id="03">
+                                </td>
+
+                                <td>
+                                    <label for="Year">Year: </label>
+                                </td>
+                                <td>
+                                    <input type="number" name="infor" id="04">
+                                </td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li>
+                        <label for="address">What is your mailing address (if you would like to have a hard copy of our catalog sent to you)?</label>
+                        <br>
+                        <textarea name="address" id="05" cols="45" rows="10" >
+                            Number/P.O.Box/Route:
+                            Street/Avenue/Road:   
+                            City: 
+                            State/Zip:
+                        </textarea>
+                    </li>
+                    <li>
+                        <label for="text">What is your email address?</label><br>
+                        <input type="text" name="email" size="30" maxlength="20">
+                    </li>
+                    <li>
+                        <label for="text">Have you viewed our online product catalog?</label>
+                        <table>
+                            <tr>
+                                <td><input type="radio" name="textRadio">Yes</td>
+                                <td><input type="radio" name="textRadio">No</td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li>
+                        <p>
+                            If so, what product(s), besides the one you are ordering, might you be interested in purchasing in the future(Check all that apply).
+                            <table>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" name="box" id="09">
+                                    </td>
+                                    <td>
+                                        <label for="09">VCR</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" name="box" id="10">
+                                    </td>
+                                    <td>
+                                        <label for="10">Big Screen TV</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" name="box" id="11">
+                                    </td>
+                                    <td>
+                                        <label for="11">Audio Equipment</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" name="box" id="12">
+                                    </td>
+                                    <td>
+                                        <label for="12">Video Equipment</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" name="box" id="13">
+                                    </td>
+                                    <td>
+                                        <label for="13">Camera Equipment</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" name="box" id="14">
+                                    </td>
+                                    <td>
+                                        <label for="14">Other</label>
+                                    </td>
+                                    <td>
+                                        <input type="text" name="text" placeholder="Please List" size="20" maxlength="20">
+                                    </td>
+                                </tr>
+                            </table>
+                        </p>
+                    </li>
+                    <li>
+                        <label for="input"> Do you have any question, comments or suggestions before proceeding to the Other From?</label>
+                        <br>
+                        <textarea name="input" id="15" cols="50" rows="5">Your output:
+                        </textarea>
+                    </li>
+                </ol>
+                <table>
+                    <tr>
+                        <td>
+                            <input type="button" value="Send From">
+                        </td>
+                        <td>
+                            <input type="button" value="Send From">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        
+
+        <br><br><br>
+        <div class="div2">
+            <form action="#">
+                <label for="16">Browser: </label>
+               <input list="16">
+               <datalist id="16">
+                    <option value="Internet Explorer"></option>
+                    <option value="FireFox"></option>
+                    <option value="Chrome"></option>
+                    <option value="Safari"></option>
+               </datalist>
+
+                <br><br>
+               <label for="17">Username: </label>
+               <input type="text" name="txtName" id="17">
+
+               <br><br>
+               <label for="18">Encryption: </label>
+               <select name="" id="18">
+                    <option value="">2048(High Grade)</option>
+                    <option value="">Other</option>
+               </select>
+               
+               <br><br>
+               <label for="19">Birthday: </label>
+               <input type="date" name="19" id="19">
+
+               <br><br>
+               <label for="20">Select your favorite color: </label>
+               <input type="color" name="20" id="20">
+
+               <br><br>
+               <label for="21">Birthday(month and year): </label>
+               <input type="month" name="21" id="">
+
+               <br><br>
+               <label for="week">Select a week: </label>
+               <input type="week" name="week" id="">
+
+               <br><br>
+               <label for="time">Select a time: </label>
+               <input type="time" name="time" id="">
+
+               <br><br>
+               <label for="22">Birthday(date and year): </label>
+               <input type="datetime-local" name="22" id="">
+
+               <br><br>
+               <label for="E-mail">E-mail: </label>
+               <input type="email" name="E-mail" id="">
+
+               <br><br>
+               <label for="google">Search Google: </label>
+               <input type="search" name="google" id=""> 
+
+               <br><br>
+               <label for="Telephone">Telephone: </label>
+               <input type="number" name="Telephone" id="">
+
+               <br><br>
+               <label for="Add">Add your homepage: </label>
+               <input type="text" name="Add" id="">
+
+               <br><br>
+               <input type="submit" value="Submit">
+               <br><br>
+               <p>
+                    <b>Note: </b>
+                    The datalist tag is not supported in Safari IE9(and earlier).
+               </p>
+            </form>
+        </div>
+    </body>
+</html>

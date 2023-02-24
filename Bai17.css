@@ -1,0 +1,27 @@
+*{
+    margin: 2px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(15, 237, 218);
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.div1 {
+    width: 800px;
+    padding: 10px;  
+    background-color: aliceblue;
+}
+
+.div2 {
+    width: 500px;
+    padding: 10px 0px 10px 10px; 
+    
+    background-color: rgb(205, 235, 160);
+}
+h2
+{
+    text-align: center;
+}
